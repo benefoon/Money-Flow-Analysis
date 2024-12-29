@@ -88,7 +88,7 @@ python src/graph_analysis.py
 #### **3. Machine Learning Training**
 Train the ML models using processed transaction data:
 ```bash
-python notebooks/03_ml_training.ipynb
+jupyter notebook notebooks/03_ml_training.ipynb
 ```
 
 #### **4. Run Dashboard**
@@ -133,6 +133,7 @@ Workflow configuration can be found in `.github/workflows/main.yml`.
 ## 🛠️ **Technologies Used**
 - **Python 3.9+**: Core programming language  
 - **NetworkX**: For graph modeling and analysis  
+- **PyTorch Geometric**: Advanced graph neural networks  
 - **Scikit-learn**: Machine learning algorithms  
 - **Streamlit**: Real-time visualization  
 - **Docker**: Containerized deployment  
@@ -148,3 +149,9 @@ We welcome contributions!
 - Open a pull request.  
 
 ---
+
+## 📈 **Future Work**
+- Incorporate anomaly detection algorithms like Isolation Forest or AutoEncoders.  
+- Add reinforcement learning models for real-time anomaly detection.  
+- Enhance dashboards with multi-layered visualizations.  
+- Extend alert systems to integrate with messaging platforms (e.g., Slack, Email).  
