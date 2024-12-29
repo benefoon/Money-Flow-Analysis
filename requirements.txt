@@ -1,0 +1,8 @@
+torch
+torchvision
+torch-geometric
+networkx
+matplotlib
+dash
+pandas
+plotly
